@@ -17,14 +17,14 @@
 //  1. array
 // 2. Array
 
-const age =22
-const name= "Sandeep"
-let marigeDAte;    // undefine
-const Ismariged = false
-const id = Symbol('123')
+// const age =22
+// const name= "Sandeep"
+// let marigeDAte;    // undefine
+// const Ismariged = false
+// const id = Symbol('123')
 
-console.log(typeof undefined)
-console.log(typeof null)
+// console.log(typeof undefined)
+// console.log(typeof null)
 
 
 // Primitive (call by value)
@@ -33,16 +33,39 @@ console.log(typeof null)
 
 // Reference type ( Non Primitive)
 
- // Array, object, Function
+// Array, object, Function
 
- const myarray =['raju', 'ram ', 'shyam'];
-  
- const myobj={
-    Name:"Sandeep",
-    age:22,
-    Ismarriaged:false
- }
+const myarray = ['raju', 'ram ', 'shyam'];
 
- const myfunction = function(){
+const myobj = {
+    Name: "Sandeep",
+    age: 22,
+    Ismarriaged: false
+}
+
+const myfunction = function () {
     console.log("hello")
- }
+}
+
+//  ++++++++++++++++++++++++++++ memories concept +++++++++++++++++++++++++++++++
+
+// stack(Primitive), Heap(Non-Primitive)
+
+let myyouName = "Sandeep.com"
+let anaotherNane = myyouName
+anaotherNane = "Pradeep.com"
+console.log(myyouName)
+console.log(anaotherNane)
+
+let oneuser = {
+    emai: "user@google.com",
+    upi: "Sandeep.hdfc"
+}
+    // heap memory example 
+let twouser = oneuser
+
+twouser.emai = "rahul@gmail.com"
+
+console.log(oneuser)
+console.log(twouser)
+
