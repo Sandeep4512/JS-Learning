@@ -23,9 +23,6 @@ let marigeDAte;    // undefine
 const Ismariged = false
 const password="Sande234@76&"
 
-
-
-
 console.log(typeof undefined)
 console.log(typeof null)
 
