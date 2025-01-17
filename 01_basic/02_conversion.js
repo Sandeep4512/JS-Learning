@@ -23,5 +23,36 @@ let Convert = Number(score)
 
 let someNumer = 34
 let StringNumer = String(someNumer)
-console.log(StringNumer)
-console.log( typeof StringNumer)
+// console.log(StringNumer)
+// console.log( typeof StringNumer)
+
+// ++++++++++++++++++++operations +++++++++++++++++++++++++++++++++++==
+
+let value =3
+let negvalue = -value
+// console.log(negvalue)
+
+// console.log(2+4)
+// console.log(2-5)
+// console.log(2*4)
+// console.log(2/5)
+// console.log(4%2)
+// console.log(2**5)
+
+// let str1 = "Sandeep"
+// let str2 =" kumar"
+// console.log(str1 + str2)
+
+//  console.log(+true) 
+//  console.log(+"")
+
+console.log(1 + 3 +'5')
+console.log('5'+5)
+console.log('1'+ 3 + 5)
+console.log(1+3+'4')
+
+let str1 = 100
+++str1
+// ++str1
+console.log(str1)
+// console.log(str1)
