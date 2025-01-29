@@ -23,7 +23,7 @@ console.log(user.greeting())
 
 // contructure object
 // Object.create()
-
+ 
 
 const tinder ={
      name:"Sandeep",
@@ -31,12 +31,12 @@ const tinder ={
      id:1001
 }
 
-console.log(Object.keys(tinder))  // return all keys
-console.log(Object.values(tinder))  //  return all values
-console.log(Object.entries(tinder))  // return a every to convert array &  like as[ [ 'name', 'Sandeep' ], [ 'Ismarrige', false ], [ 'id', 1001 ] ]
+//console.log(Object.keys(tinder))  // return all keys
+//console.log(Object.values(tinder))  //  return all values
+//console.log(Object.entries(tinder))  // return a every to convert array &  like as[ [ 'name', 'Sandeep' ], [ 'Ismarrige', false ], [ 'id', 1001 ] ]
 
 
-console.log(tinder.hasOwnProperty('Ismarrige'))
+// console.log(tinder.hasOwnProperty('Ismarrige'))  // return a boolean
 
 
 const obj1 ={1:"a",2:"M",3:"J"}
@@ -48,9 +48,9 @@ const combineobj = {obj1 ,obj2, obj3 }// problem of nested object
 const assigOBJ = Object.assign( {}, obj1,obj2,obj3)
 const addObj= {...obj1,...obj2,...obj3}
 
-console.log(combineobj)
-console.log(assigOBJ)
-console.log(addObj)
+// console.log(combineobj)
+// console.log(assigOBJ)
+// console.log(addObj)
 
 
 // destructure of OBject
@@ -61,6 +61,10 @@ const course ={
     teacher:"Sandeep"
 }
 
-const { courseName,fee} = course
+const { courseName,fee:totalfee} = course
 
-console.log(courseName)
+// console.log(courseName)
+// console.log(totalfee)
+
+
+ 
