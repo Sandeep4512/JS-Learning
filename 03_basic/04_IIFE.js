@@ -1,6 +1,6 @@
 // Immediately Invoked Dunction Expression (IIFE)
 
-// ()() => first bracket take definiton of the function  second brcaket take the calling the function
+// ()() => first bracket take definiton of the function  second bracket take the calling the function
 
 (function chai (){
     // name IIFE
