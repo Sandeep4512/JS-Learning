@@ -53,4 +53,35 @@ console.log(ans);
  
 
 // for of
+
+const greeting ="hello wordl";
+for(const greet of greeting){
+    // console.log(`Each char is ${greet}`)
+}
+
 // for in
+
+const map = new Map();
+map.set('IN',"india");
+map.set('USA',"United state of America");
+map.set('Fr',"France");
+map.set('IN',"india");
+
+console.log(map);
+
+for(const [Key , Value] of map){
+    // console.log(Key ,":-" ,Value);
+}
+
+
+//   object 
+
+const newOBJ = {
+     game1 :"cricket",
+     game2:"baseket ball",
+     game3:"badminton"
+}
+
+for(const key of newOBJ){
+    console.log(key);
+}
