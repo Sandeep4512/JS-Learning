@@ -1,6 +1,6 @@
 
 // 1. Advance array Methods :-
-//  forEach(),map(),filter(),find(),every(),some(),reduce()  ->Higher Order
+//  forEach(),map(),filter(),find(),every(),some(),reduce()  ->Higher Order function 
 
 let arr=[{name:"Rama",id:"2"},{name:"Sita",id:"3"},{name:"Gita",id:"4"}];
 // forEach():void

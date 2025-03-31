@@ -33,7 +33,7 @@ function printme(item){
 // arr.forEach(printme)
 
 arr.forEach((item,index,arr)=>{
-      console.log(item,index,arr)
+    //   console.log(item,index,arr)
 })
 
 
@@ -53,5 +53,20 @@ const mycoding = [
 ]
 
 mycoding.forEach( (item)=>{
-    console.log(item.languagefile);
+    // console.log(item.languagefile);
 })
+
+const arr2 =["js","cpp","py","java","cpp"]
+
+ const values = arr2.forEach( (item)=>{
+    return item; 
+})
+
+console.log(values);
+
+const mynum = [ 1,2,3,4,5,6,7,8]
+ const newNUm = mynum.filter( (num)=>{ 
+      return num >5
+})
+
+console.log(newNUm)
