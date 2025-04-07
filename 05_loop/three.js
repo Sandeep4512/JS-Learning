@@ -60,6 +60,7 @@ const arr2 =["js","cpp","py","java","cpp"]
 
  const values = arr2.forEach( (item)=>{
     return item; 
+    // isme hum manual bhi return nhi kr sakte hai kyu ki forEach kuch mhi return krta hai 
 })
 
 console.log(values);
@@ -70,3 +71,13 @@ const mynum = [ 1,2,3,4,5,6,7,8]
 })
 
 console.log(newNUm)
+
+// alternative solution
+  const newNums =[];
+  mynum.forEach( (item)=>{
+    if(item >5 ){
+        newNums.push(item);
+    }
+  })
+
+  console.log(newNums)
