@@ -26,7 +26,7 @@ console.log(p1)
 
 // this Keyword ka kya  kaam?
 // this ka matlab hota hai:
-// 👉 "Abhi jis object ke andar hoon"
+// 👉 "Abhi jis object ke andar hoon or newly created object like recently "
 
 function Car(name) {
   this.name = name;
