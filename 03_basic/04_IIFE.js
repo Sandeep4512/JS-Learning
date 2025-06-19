@@ -1,4 +1,4 @@
-// Immediately Invoked Dunction Expression (IIFE)
+// Immediately Invoked Function Expression (IIFE)
 
 // ()() => first bracket take definiton of the function  second bracket take the calling the function
 
