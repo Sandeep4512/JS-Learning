@@ -190,6 +190,9 @@ a1.speak(); // Animal speaks
 d1.speak(); // Dog barks 🐶
 c1.speak(); // Cat meows 🐱
 
+
+// ----------------------------------------------------------------
+
 // 🔧 Getter & Setter in JavaScript
 // Kisi object ke properties ko access aur update karne ke safe aur controlled tarike hote hain:
 
