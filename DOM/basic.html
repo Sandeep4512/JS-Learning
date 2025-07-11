@@ -1,23 +1,47 @@
+<!-- ==================================back ground changer ==================================================================  -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-             
-           <div class="container">
-            <h2 id="heading1">first example1</h2>
-             <p id="para1">this is a Paragraph</p>
-            </div>
+    <title>Background Changer</title>
+    <link rel="stylesheet" href="style.css">
 
-            <script src="./script.js"></script>
+</head>
+
+<body>
+
+    <!-- change background  -->
+    <h1>Click to Change Background Color</h1>
+    <div class="btncontainer">
+        <button id="changeBtn">Change Background Color</button>
+    </div>
+
+    <!-- add remove list  -->
+    <div class="list-container">
+        <ul id="fruitList" class="fruits">
+
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Apple</li>
+            <li>Guavava</li>
+            <li>PineApple</li>
+        </ul>
+        <div class="btn-container">
+            <button id="addFruit">Add Fruits</button>
+            <button id="removeBtn">Remove Fruits</button>
+        </div>
+
+    </div>
+    
+
+    <!-- <button style="background-color: blue;" id="changeBtn">Blue</button>
+  <button style="background-color: rgb(23, 125, 47);" id="changeBtn">Green </button>
+  <button style="background-color: rgb(242, 0, 255) ;" id="changeBtn">Red</button>  -->
+
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
